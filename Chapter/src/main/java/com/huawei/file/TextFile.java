@@ -1,6 +1,6 @@
 package com.huawei.file;
 
-import java.io.PrintWriter;
+import java.io.*;
 
 /**
  * Created by Newsoul on 2018/2/23.
@@ -15,5 +15,16 @@ public class TextFile
         {
             out.println(employee);
         }
+    }
+
+    private void readTxt() throws IOException
+    {
+        File file = new File("D:/CoreJava.txt");
+        FileInputStream fileInputStream = new FileInputStream("D:/CoreJava.txt");
+        for (int i = 0; i < file.length(); i++)
+        {
+            System.out.println((char) fileInputStream.read());
+        }
+        fileInputStream.close();
     }
 }
