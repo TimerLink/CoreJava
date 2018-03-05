@@ -1,5 +1,7 @@
 package com.huawei.file;
 
+import javax.swing.*;
+import java.awt.*;
 import java.io.*;
 
 /**
@@ -26,5 +28,14 @@ public class TextFile
             System.out.println((char) fileInputStream.read());
         }
         fileInputStream.close();
+    }
+
+    public void bounce()
+    {
+        EventQueue.invokeLater(() -> {
+            JFrame frame = new JFrame("title");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setVisible(true);
+        });
     }
 }
