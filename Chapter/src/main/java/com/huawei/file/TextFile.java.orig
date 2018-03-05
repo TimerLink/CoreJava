@@ -1,7 +1,10 @@
 package com.huawei.file;
 
+<<<<<<< HEAD
+=======
 import javax.swing.*;
 import java.awt.*;
+>>>>>>> hotfix
 import java.io.*;
 
 /**
@@ -19,14 +22,14 @@ public class TextFile
         }
     }
 
+<<<<<<< HEAD
     private void writeTxt() throws IOException, FileNotFoundException
     {
         File file = new File("D:/file.txt");
         FileOutputStream fileOutputStream = new FileOutputStream(file);
         fileOutputStream.write('C');
         fileOutputStream.close();
-    }
-    
+=======
     private void readTxt() throws IOException
     {
         File file = new File("D:/CoreJava.txt");
@@ -45,5 +48,6 @@ public class TextFile
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
         });
+>>>>>>> hotfix
     }
 }

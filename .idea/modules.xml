@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter/Chapter.iml" filepath="$PROJECT_DIR$/Chapter/Chapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Common.iml" filepath="$PROJECT_DIR$/.idea/modules/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Common_main.iml" group="Common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Common_test.iml" group="Common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CoreJava.iml" filepath="$PROJECT_DIR$/.idea/CoreJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProductManage/ProductManage.iml" filepath="$PROJECT_DIR$/ProductManage/ProductManage.iml" />
+    </modules>
+  </component>
+</project>
